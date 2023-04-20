@@ -1,0 +1,571 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+body{
+  height: 100%;
+  font-size: 62.5%;
+}
+
+.container1 {
+  width: 100vw;;
+  height: 87vh;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/hrz-5.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+
+.textbox1 {
+  display:flex;
+  flex-direction: column;
+  max-width: 25%;
+}
+
+.textbox1 h1 {
+  color:#ce23c6; 
+  font-size:4.0rem;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.textbox1 h2 {
+  color:whitesmoke;
+  padding-bottom: 50px;
+  font-size: 2.30rem;
+  font-weight: 700;
+}
+
+.textbox1 .p1 {
+  color:whitesmoke;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.textbox1 .p2 {
+  color:#ce23c6; 
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  background-color: #96979b;
+  height: 85%;
+  padding:30px
+}
+
+.form h2 {
+  font-size:1.6rem;
+  margin-top:10px;
+  margin-bottom:35px;
+  color:#161617
+}
+.form label {
+  color:#4c4c4e;
+  font-weight: 600;
+}
+
+.form input {
+  width: 100%;
+  height: 30px;
+  margin-top:4px;
+  margin-bottom:17px;
+  border-radius: 4px;
+  border: none;
+  padding:10px;
+}
+
+.form .btn {
+  background-color: #ba2ca6;
+  color: whitesmoke;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  border:none;
+}
+
+/*----------------mobile device--------------*/
+
+@media only screen and (max-width: 850px) {
+
+
+/*container1*/
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 30px;
+}
+
+.container1 .textbox1 {
+  display: block;
+  max-width: 100%;
+}
+
+.form {
+  display: block;
+  max-width: 100%;
+  background-color: #96979b;
+  height: 85%;
+  margin-top:30px
+}
+}
+  
+/*------------------------------------container2-------------------------*/
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 17vh;
+  background-color: #96979b;
+}
+
+.container2 p {
+  font-size: 2.0rem;
+  color:#1f1f23;
+}
+
+/*----------------mobile device--------------*/
+
+@media only screen and (max-width: 850px) {
+  /*container2*/
+  .container2 {
+    width: 100%;
+  }
+  .container2 p {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+
+/*----------------------------------container3---------------------*/
+
+.container3 {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+}
+
+.container3 .img-text-box {
+  display:flex;
+  align-items: center;
+  width: 80%;
+  margin:0px auto;
+  padding-top: 65px;
+}
+
+.container3 .idv-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container3 p {
+  width: 55%;
+  margin:15px auto;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+.container3 img {
+  height:300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+/*----------------mobile device--------------*/
+
+@media only screen and (max-width: 850px) {
+
+
+  /*container3*/
+  .container3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .container3 .img-text-box {
+    display:block;
+    padding-top: 60px;
+  }
+
+  .container3 .idv-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+
+  .container3 p {
+    width: 95%;
+    margin:15px auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+}
+
+/*---------------------------------container4---------------------------------*/
+
+.container4 {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hrz-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly; 
+  gap:40px;
+}
+
+.text1-box4 {
+  width: 30%;
+  display: flex;
+  gap:15px;
+  align-items: center;
+}
+
+.text1-box4 i {
+  color:#ee1bcc;
+  font-size: 7vmin;
+}
+
+.text1-box4 p {
+  color:whitesmoke;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.text2-box4 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap:55px;
+  margin-top: 85px;
+}
+
+.text2-box4 h2 {
+  color: #ee1bcc;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.text2-box4 p {
+  font-size: 1rem;
+  font-weight: 400;
+  color:whitesmoke;
+}
+
+/*----------------mobile device--------------*/
+
+@media only screen and (max-width: 850px) {
+
+
+  /*container4*/
+  .container4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding:30px
+  }
+
+  .text2-box4 p {
+    display: none;
+  }
+
+  .text1-box4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+  }
+
+  .text2-box4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+  }
+
+}
+
+/*-------------------------------container5-----------------*/
+
+/*box5-1*/
+
+.container5 {
+  padding:80px 130px;
+}
+
+.box5-1 {
+  display: flex;
+}
+
+.box5-1 h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  margin:0 auto;
+  width: 40%;
+}
+
+
+.container5 .img-box5-1 {
+  width: 50%;
+}
+
+/*box5-2*/
+
+  .box5-2 {
+    display: flex;
+    margin:70px auto;
+    justify-content: space-between;
+  }
+
+  .box5-2 .list {
+    margin-left: 50px;
+  }
+
+  .box5-2 h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: -15px;
+    margin-bottom: 30px;
+  }
+
+  .box5-2 ul {
+    line-height: 25px;
+    font-size: 0.9rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+.container5 .img-box5-2 {
+  width: 50%;
+}
+
+/*box5-3*/
+
+.container5 .box5-3 {
+  display: flex;
+}
+
+.container5 .list2 {
+  width: 30%;
+  margin-left: 100px;
+}
+
+.container5 .list2 h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: -15px;
+    margin-bottom: 30px;
+}
+
+.container5 ul {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.container5 .img-box5-3 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 850px) {
+
+
+  /*container5*/
+  /*box5-1*/
+.container5 {
+  padding:50px 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.box5-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .box5-1 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin:0;
+    width: 100%;
+  }
+
+  .container5 .img-box5-1 {
+    display: none;
+  }
+  /*box5-2*/
+  .box5-2 {
+    display: block;
+    margin:50px 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .box5-2 .list {
+    margin-left:0;
+  }
+
+  .box5-2 h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  .box5-2 ul {
+    line-height: 38px;
+    font-size: 1.2rem;
+    margin-left:15px;
+  }
+
+  .container5 .img-box5-2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+/*box5-3*/
+  
+.container5 .box5-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container5 .list2 {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.container5 .list2 h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.box5-3 ul {
+  font-size: 1.2rem;
+  line-height: 38px;
+  margin-left:15px;
+}
+
+.container5 .img-box5-3 {
+  width: 100%;
+}
+  
+  
+
+
+
+}
+
+/*--------------------------------container6-------------------*/
+.container6 {
+  background: linear-gradient( rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url("../img/hrz-6.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 48vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 .box6-1 {
+  text-align: center;
+}
+
+.container6 h3 {
+  color:whitesmoke;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.container6 .btn1 {
+  width: 90%;
+  height: 40px;
+  background-color: #c61dac;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+}
+/*-----------------------------footer--------------*/
+
+footer {
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+}
+
+footer .box-footer{
+  text-align: center;
+  color:#888888;
+}
+
+footer h3 {
+  color:#959393;
+  font-size:2.0rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+footer .text1 { 
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+footer .bold {font-weight: 700;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
